@@ -1,0 +1,13 @@
+Business: Top Shelf Demo Business
+Location: Hillsboro MO
+
+Generate:
+- Home page
+- Services page
+- About page
+- Contact page
+
+Style:
+Professional local business website.
+Mobile first.
+Local SEO ready.
