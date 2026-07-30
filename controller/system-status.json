@@ -1,0 +1,17 @@
+{
+  "system": "Website Factory",
+  "mode": "AUTONOMOUS",
+  "components": {
+    "AI": "OmniRoute",
+    "generator": "ONLINE",
+    "queue": "ONLINE",
+    "github": "CONNECTED",
+    "cloudflare": "CONNECTED",
+    "watchdog": "ACTIVE"
+  },
+  "next": [
+    "Stripe webhook",
+    "Customer email",
+    "Production templates"
+  ]
+}
