@@ -1,0 +1,17 @@
+{
+  "factory": "Website Factory",
+  "current_stage": "AUTOMATED DELIVERY",
+  "online": {
+    "order_intake": true,
+    "customer_records": true,
+    "website_records": true,
+    "deployment_tracking": true,
+    "cloudflare_publish": true
+  },
+  "remaining": [
+    "real Stripe webhook endpoint",
+    "Supabase production database",
+    "customer email delivery",
+    "admin dashboard"
+  ]
+}
