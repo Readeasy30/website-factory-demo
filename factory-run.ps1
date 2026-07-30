@@ -3,18 +3,23 @@ param(
 [string]$City
 )
 
-Write-Host "STARTING WEBSITE FACTORY"
+$site = "$Business - $City"
 
-.\build-website.ps1 -Business $Business -City $City
+Write-Host "QUEUE: $site"
+
+.\build-website.ps1 `
+-Business $Business `
+-City $City
 
 .\unpack-site.ps1
 
 git add .
 
-git commit -m "AI generated website update"
+git commit -m "automated build: $site"
 
 git push
 
-wrangler pages deploy . --project-name website-factory-demo
+wrangler pages deploy . `
+--project-name website-factory-demo
 
-Write-Host "WEBSITE FACTORY COMPLETE"
+Write-Host "LIVE: $site"
