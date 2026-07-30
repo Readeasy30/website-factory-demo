@@ -1,0 +1,11 @@
+{
+  "status": "ready",
+  "pipeline": [
+    "receive-order",
+    "generate-ai-site",
+    "create-files",
+    "push-github",
+    "deploy-cloudflare",
+    "notify-customer"
+  ]
+}
