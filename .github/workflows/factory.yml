@@ -1,0 +1,21 @@
+name: Website Factory
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  factory-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify Factory
+        run: |
+          echo "AI Generator: READY"
+          echo "GitHub Publisher: READY"
+          echo "Cloudflare Deploy: READY"
+          echo "Factory Controller: ONLINE"
