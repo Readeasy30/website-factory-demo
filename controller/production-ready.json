@@ -1,0 +1,10 @@
+{
+  "factory": "online",
+  "pipeline": "autonomous",
+  "ai_gateway": "OmniRoute",
+  "deployment": "Cloudflare Pages",
+  "source_control": "GitHub",
+  "watchdog": "enabled",
+  "queue": "enabled",
+  "next_upgrade": "Stripe webhook"
+}
