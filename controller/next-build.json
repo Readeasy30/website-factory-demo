@@ -1,0 +1,11 @@
+{
+  "phase": "NEXT",
+  "build": "AUTOMATION",
+  "priority": [
+    "Connect real Stripe webhook",
+    "Store customers in database",
+    "Auto-send launch email",
+    "Create customer dashboard"
+  ],
+  "factory": "ONLINE"
+}
