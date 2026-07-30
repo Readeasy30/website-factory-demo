@@ -1,0 +1,11 @@
+{
+  "automation": "active",
+  "version": "0.1",
+  "trigger": "webhook",
+  "ai": "OmniRoute auto/best-fast",
+  "publish": [
+    "GitHub",
+    "Cloudflare Pages"
+  ],
+  "status": "READY"
+}
