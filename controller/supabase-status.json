@@ -1,0 +1,13 @@
+{
+  "supabase": {
+    "schema": "created",
+    "tables": [
+      "customers",
+      "orders",
+      "websites",
+      "deployments"
+    ]
+  },
+  "next_step": "connect application layer",
+  "status": "READY"
+}
