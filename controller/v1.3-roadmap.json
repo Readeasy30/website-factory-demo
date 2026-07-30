@@ -1,0 +1,11 @@
+{
+  "phase": "V1.3",
+  "upgrade": "real integrations",
+  "tasks": {
+    "stripe": "webhook endpoint",
+    "supabase": "live API connection",
+    "email": "customer delivery",
+    "dashboard": "admin controls"
+  },
+  "status": "NEXT"
+}
