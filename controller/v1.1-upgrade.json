@@ -1,0 +1,16 @@
+{
+  "phase": "V1.1",
+  "upgrade": "production data layer",
+  "replace": {
+    "current": "local JSON files",
+    "target": "Supabase database"
+  },
+  "tables": [
+    "customers",
+    "orders",
+    "websites",
+    "deployments",
+    "events"
+  ],
+  "status": "READY"
+}
