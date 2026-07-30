@@ -1,0 +1,10 @@
+{
+  "database": "pending",
+  "tables": [
+    "customers",
+    "orders",
+    "websites",
+    "deployments"
+  ],
+  "purpose": "replace local json queue with persistent customer records"
+}
